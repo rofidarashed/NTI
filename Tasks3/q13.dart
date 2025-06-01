@@ -5,8 +5,7 @@ void main() {
     yearBuilt: 1831,
   );
 
-  print('Address: ${myBuilding.address}');
-  print('Floors: ${myBuilding.floors}');
+  print('Address: ${myBuilding.address}\nFloors: ${myBuilding.floors}');
 
   if (myBuilding.yearBuilt < 1950) {
     print('Historic building.');

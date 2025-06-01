@@ -1,8 +1,7 @@
 void main() {
   User myUser = User(username: 'user123', email: 'user@example.com', isActive: true);
 
-  print('Username: ${myUser.username}');
-  print('Email: ${myUser.email}');
+  print('Username: ${myUser.username}\nEmail: ${myUser.email}');
 
   if (!myUser.isActive) {
     print('Account is disabled.');

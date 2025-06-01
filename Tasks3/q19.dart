@@ -1,8 +1,7 @@
 void main() {
   Task myTask = Task(description: 'Prepare monthly report', dueDate: '2024-05-30', isCompleted: false);
 
-  print('Task: ${myTask.description}');
-  print('Due Date: ${myTask.dueDate}');
+  print('Task: ${myTask.description}\nDue Date: ${myTask.dueDate}');
 
   DateTime dueDateParsed = DateTime.parse(myTask.dueDate);
   DateTime now = DateTime.now();

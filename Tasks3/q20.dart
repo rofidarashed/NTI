@@ -6,8 +6,7 @@ void main() {
     condition: 'sunny',
   );
 
-  print('Location: ${reading.location}');
-  print('Temperature: ${reading.temperatureCelsius}°C');
+  print('Location: ${reading.location}\nTemperature: ${reading.temperatureCelsius}°C');
 
   if (reading.condition == 'rainy') {
     print('Bring your umbrella.');

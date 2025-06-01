@@ -6,8 +6,7 @@ void main() {
     status: 'pending',
   );
 
-  print('Order ID: ${myOrder.orderId}');
-  print('Customer Name: ${myOrder.customerName}');
+  print('Order ID: ${myOrder.orderId}\nCustomer Name: ${myOrder.customerName}');
 
   if (myOrder.status == 'pending') {
     print('The order needs processing.');

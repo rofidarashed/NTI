@@ -6,8 +6,7 @@ void main() {
     releaseYear: 2001,
   );
 
-  print('Title: ${myMovie.title}');
-  print('Director: ${myMovie.director}');
+  print('Title: ${myMovie.title}\nDirector: ${myMovie.director}');
 
   if (myMovie.rating >= 8) {
     print('Highly rated movie.');

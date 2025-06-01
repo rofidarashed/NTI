@@ -6,8 +6,7 @@ void main() {
     genre: 'Pop',
   );
 
-  print('Title: ${mySong.title}');
-  print('Artist: ${mySong.artist}');
+  print('Title: ${mySong.title}\nArtist: ${mySong.artist}');
 
   if (mySong.genre == 'Rock') {
     print('Awesome rock music!');

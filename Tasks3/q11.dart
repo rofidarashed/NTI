@@ -6,8 +6,7 @@ void main() {
     isWild: false,
   );
 
-  print('Species: ${myAnimal.species}');
-  print('Name: ${myAnimal.name}');
+  print('Species: ${myAnimal.species}\nName: ${myAnimal.name}');
 
   if (myAnimal.isWild) {
     print('Handle with care.');

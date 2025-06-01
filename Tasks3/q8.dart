@@ -5,8 +5,7 @@ void main() {
     cookingTimeMinutes: 45,
   );
 
-  print('Recipe Name: ${myRecipe.name}');
-  print('Cooking Time: ${myRecipe.cookingTimeMinutes} minutes');
+  print('Recipe Name: ${myRecipe.name}\nCooking Time: ${myRecipe.cookingTimeMinutes} minutes');
 
   if (myRecipe.cookingTimeMinutes > 60) {
     print('Long recipe.');

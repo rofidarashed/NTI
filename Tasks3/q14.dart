@@ -3,8 +3,7 @@ void main() {
 
   double area = myRoom.length * myRoom.width;
 
-  print('Room Name: ${myRoom.name}');
-  print('Area: $area');
+  print('Room Name: ${myRoom.name}\nArea: $area');
 
   if (area > 20) {
     print('Spacious room.');

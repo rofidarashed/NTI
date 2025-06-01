@@ -5,8 +5,7 @@ void main() {
 
   double distance = sqrt(myPoint.x * myPoint.x + myPoint.y * myPoint.y);
 
-  print('Coordinates: (${myPoint.x}, ${myPoint.y})');
-  print('Distance from origin: $distance');
+  print('Coordinates: (${myPoint.x}, ${myPoint.y})\nDistance from origin: $distance');
 }
 
 class Point {

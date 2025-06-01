@@ -6,8 +6,7 @@ void main() {
     attendeeCount: 150,
   );
 
-  print('Event Name: ${myEvent.name}');
-  print('Location: ${myEvent.location}');
+  print('Event Name: ${myEvent.name}\nLocation: ${myEvent.location}');
 
   if (myEvent.attendeeCount > 100) {
     print('Large event.');

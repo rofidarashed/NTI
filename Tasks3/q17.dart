@@ -6,8 +6,7 @@ void main() {
     timestamp: '2024-06-01 10:00',
   );
 
-  print('Sender: ${myMessage.sender}');
-  print('Content: ${myMessage.content}');
+  print('Sender: ${myMessage.sender}\nContent: ${myMessage.content}');
 }
 
 class Message {

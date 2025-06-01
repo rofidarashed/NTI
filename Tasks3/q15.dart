@@ -1,8 +1,7 @@
 void main() {
   Device myDevice = Device(type: 'Phone', brand: 'Samsung', batteryLevel: 15);
 
-  print('Type: ${myDevice.type}');
-  print('Brand: ${myDevice.brand}');
+  print('Type: ${myDevice.type}\nBrand: ${myDevice.brand}');
 
   if (myDevice.batteryLevel < 20) {
     print('Low battery.');
